@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+.Total_Whole_Block{
+min-height: 646px;
+margin: 0 auto;
+overflow: auto;
+padding: 20px;
+width: 925px;
+background: white;
+}
+/*Header*/
+.Header_Block img{
+width: 195px;
+height: 51px;
+float: left;
+}
+.Header_Block nav ul li{
+list-style: none;
+line-height: 0.1em;
+border-right: 0.6px solid #666666;
+float: right;
+color: #666666;
+display: inline;
+padding: 10px 23px;
+}
+hr{
+width:925px;
+border: 0.5px solid #dddddd;
+margin-top: 23px;
+}
+/*Header end*/
+body{
+background: black;
+font-family: 'Source Sans Pro', sans-serif;
+}
+/*body */
+.Body_Block{
+margin-top: 0px;
+}
+/*body left block*/
+.Body_Left_Whole_Block{
+width: 185px;
+float:left;
+}
+.Header_Name h3{
+font-size: 15px;
+color: #555555;
+background: #ddd;
+font-family: arial;
+font-weight: lighter;
+margin-bottom: 0px;
+padding-bottom: 9px;
+padding-top: 9px;
+padding-left: 8px;
+}
+.Header_Body{
+background: #eee;
+color: #4e4e4e;
+height: auto;
+text-align: justify;
+}
+.Header_Body p{
+font-size: 13px;
+padding: 0px;
+margin: 0;
+}
+p{
+margin: 0; 
+}
+.Bottom{
+font-size: 12px;
+padding-bottom: 7px;
+}
+.Bottom ul li{
+list-style: none;
+padding: 7px 7px 0px 7px;
+}
+.Bottom ul{
+padding: 0px;
+margin: 0px;
+}
+.Pre_Info {
+font-size: 13px;
+font-style: italic;
+font-family: arial;
+}
+.Show_More_Button{
+background: #a2a2a2;
+padding: 4px 7px;
+margin: 26px 0px 4px 92px;
+color:white;
+}
+/*Body right block start*/
+.Body_Right_Whole_Block{
+float:right;
+width:720px;
+}
+.Right_Block_Body{
+background: #eee;
+padding-bottom: 71px;
+}
+.Right_Block_Body img{
+padding: 7px;
+width: 706px;
+height: 208px;
+}
+.Right_Collaboration_Block{
+margin-top: 10px;
+}
+.Mission_Block{
+width: 346px;
+color: #585858;
+font-size: 12px;
+text-align: justify;
+padding: 6px;
+display: inline-block;
+}
+.Your_Block{
+width:346px;
+float: right;
+color: #555555;
+font-size: 13px;
+}
+form{
+margin: 5px;
+}
+form input{
+margin-left: 28px;
+margin-top: 5px;
+border-radius: 2px;
+border: 1px solid #ccc;
+height: 17px;
+}
+form input[type="password"]{
+margin-left: 8px;
+}
+.Submit_Button{
+background:#a2a2a2;
+color:white;
+padding: 4px 7px;
+margin: 12px 4px 4px 207px;
+}
+.NameAndPreferredLocation h3 h4{
+font-size: 13px;
+color: #555555;
+}
+.NameAndPreferredLocation h3{
+float:left;
+margin-top: 17px;
+}
+.NameAndPreferredLocation h4{
+float: right;
+margin-right: 67px;
+}
+.Clear{
+clear: both;
+}
+/*footer*/
+.footer{
+color: #969696;
+margin-top: 20px;
+text-align: center;
+font-size: 13px;
+}
