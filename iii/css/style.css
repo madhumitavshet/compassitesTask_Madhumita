@@ -1,0 +1,361 @@
+body{
+overflow-x: hidden;
+}
+img{
+width:118px;
+}
+ul{
+list-style: none;
+}
+li a{
+font-weight:normal;
+color:#34ac98;
+font-family:times new roman;
+font-size:19px;
+font-style:italic;
+}
+.glyphicon{
+font-size:30px;
+color:black;
+}
+.copyright{
+color:#999999;
+padding-left:10px;
+}
+.footerdetails nav ul li a , .footerdetails .col-xs-6  .col-xs-12 ul li a{
+line-height:11px;
+border-right:1px solid #ccc;
+float:left;
+color:#34ac98;
+display:inline;
+font-style:normal;
+padding:3px;
+}
+.Subscribe{
+font-size:13px;
+border-radius:4px;
+font-weight:bold;
+background:#e2e2e2;
+}
+.email{
+width:100%;
+border:1px solid #cccc;
+font-size:13px;
+}
+.copyright,.footerdetails nav ul li a , .footerdetails .col-xs-6  .col-xs-12 ul li a,.facebooktwitter .twitter h1,.facebook h1,
+.facebooktwitter .facebook p,.newsletter .col-md-6 p,.facebooktwitter .twitter .btn,.facebook .btn,
+.splinfo1 , .splinfo2,.tileblock h1,.tileblock p,.date,.read,.col-xs-12 .splinfo1, .col-xs-12 .splinfo2{
+font-family:times new roman;
+}
+@media only screen and (min-width: 293px){  /*desktop/laptop*/
+.container{  /*left block*/
+ margin:0px;
+ }
+.col-md-3 .leftaside{
+ padding-left:22px;
+ }
+.col-md-3 .col-md-12 li{
+padding-left:11px;
+}
+.col-md-3 .col-md-12 img{
+margin-top:48px;
+}
+.col-md-3 .col-md-12 ul{
+padding:0px;
+}
+.col-md-3 .col-md-12 ul li{
+padding:0px;
+}
+.col-md-3 #glyphicon_navbars{
+margin-top:21px;
+}
+.col-md-3 .col-md-12 li a{
+font-size:17px;
+padding-left:11px;
+}
+#glyphicon_navbars li{
+padding-top:15px;
+}
+#foodsence_big_picture img{    /*right block*/
+margin-top:48px;
+width:100%;
+height:446px;
+}
+#foodsence_big_picture{
+padding: 0px 32px 0px 0px;
+}
+#tabs{
+float:right;
+height:76px;
+padding: 0px 32px 0px 0px;
+}
+#tabs li{
+background-color: #eff8f7;
+}
+#tabs ul .active {
+background:#D9EFEC; 
+color:#34ac98;
+}
+#tabs .col-md-12 .col-md-3 p{
+font-size: 10px;
+}
+#tabs ul {
+padding: 0px 0px 0px 0px;
+}
+.facebooktwitter .twitter h1,.facebook h1{
+font-size: 12px;
+font-weight:normal;
+border-bottom:1px dashed #e5e5e5;
+}
+.facebooktwitter .twitter .btn,.facebook .btn{
+width: 150px;
+border-radius: 4px;
+background: white;
+color: #34ac98;
+border-color: #e5e5e5;
+font-size: 12px;
+}
+.facebooktwitter .facebook p,.newsletter .col-md-6 p,.facebooktwitter .twitter .btn,.facebook .btn,
+.splinfo1 , .splinfo2{
+font-style: italic;
+}
+.facebooktwitter .facebook p{
+font-size: 11px;
+}
+.newsletter .col-md-6 p{
+font-size:12px;
+}
+.newsletter .col-md-3 button{
+float: right;
+font-weight: bold;
+}
+.newsletter{
+border-top:1px dashed #e5e5e5;
+border-bottom: 1px dashed #e5e5e5;
+}
+.tileblock{
+margin-top: 27px;
+}
+.tileblock h1{
+color:#34ac98;
+font-size: 17px;
+}
+.tileblock p{
+font-size: 15px;
+text-align: left;	
+}
+.tileblock img{
+width: 166px;
+height: 121px;
+}
+.footerdetails{
+border-top: 1px solid #e5e5e5;
+}
+.footerdetails nav ul{
+margin-top: 26px;
+}
+.footerdetails nav ul li a{
+font-size: 12px;
+}
+.copyright{
+font-size:12px;
+margin-left: 33px;
+padding-left: 10px;
+}
+.socialsites a{
+float: right;
+font-size: 24px;
+color:#999999;
+margin-top: 17px;
+}
+.splinfo1 , .splinfo2{
+position: absolute;
+left: 0;
+}
+.splinfo1{
+background-color: rgba(255,255,255,1);	
+color:black;
+width: 35%;	
+padding: 11px;
+font-size: 20px;
+top: 343px;
+}
+.splinfo2{
+background-color: rgb(0, 0, 0);
+color: white;
+width: 65%;
+padding: 10px;
+top: 393px;
+font-size: 13px;
+}
+.date{
+color:#999999;
+font-weight: normal;
+font-size:13px;
+}
+.read{
+color: #34ac98;
+}
+}
+@media only screen and (max-width: 768px) and (min-width: 324px){ /*tablet*/
+.col-sm-4 li a{
+font-size: 18px;
+}
+.col-sm-8 >nav {
+float: right;
+}
+.col-sm-8 ul{
+display: inline-flex;
+padding: 0px;
+margin-left: 69px;
+}
+.col-sm-12 .col-sm-4 img{
+margin:24px 0px 0px 1px;
+float:left;
+}
+.col-sm-12 .col-sm-8 li a{
+font-size:18px;
+}
+.col-sm-12 .col-sm-8{
+margin-top: 56px;
+}
+.col-sm-12 .col-sm-8 li{
+padding-right: 9px;
+}
+.col-sm-12 .col-sm-8 .glyphicon-cutlery{
+margin-left: 21px;
+}
+.col-sm-12 .col-sm-8 .glyphicon-book{
+margin-left: 1px;
+}
+.col-sm-12 .col-sm-8 .glyphicon-list-alt {
+margin-left: 21px;
+}
+.col-sm-12 .col-sm-8 .glyphicon-camera{
+margin-left: 22px;
+}
+.col-sm-12 .col-sm-8 .glyphicon-text-background{
+margin-left: 4px;
+}
+#foodsence_big_picture{
+padding: 0px 20px 0px 20px;
+}
+#foodsence_big_picture img{
+width:709px;
+height:446px;
+margin-top: 20px;
+}
+#tabs{
+padding-right: 0px;
+width: 711px;
+margin-right: 19px;
+}
+.splinfo1{
+left: 20px;
+top: 343px;
+}
+.splinfo2{
+left: 20px;
+top: 393px;
+}
+}
+@media only screen and (max-width: 320px) and (min-width: 293px){  /*mobile*/
+#foodsence{
+order:2;
+}
+#glyphicon_navbars{
+order:1;
+}
+.col-xs-12{
+display: flex;
+flex-direction: column;
+padding: 0px;
+font-size: 18px;
+}
+.col-xs-12 ul{
+display: inline-flex;
+padding: 0px;
+margin-top: 22px;
+}
+.col-xs-12 .navbar .ul{
+border-bottom: 1px solid #e5e5e5;
+}
+.col-xs-12 .col-xs-12 li a{
+font-size:12px;
+padding-left: 11px;
+}
+.col-xs-12 .col-xs-12 li{
+padding-left: 11px;
+}
+.col-xs-12 .col-xs-12 .navbar{
+height: 51px;
+width:301px;
+}
+.col-xs-12 #glyphicon_navbars{
+margin:0px;
+}
+.col-xs-12 .col-xs-12 #first{
+margin-top: 21px;
+} 
+.col-xs-12 .col-xs-12 img{
+margin:0 auto;
+margin-top: 12px;
+}
+#foodsence_big_picture img{ /*right block mobile*/
+width: 331px;
+height: 215px;
+padding: 0px;
+margin-top: 21px;
+}
+#foodsence_big_picture{
+padding: 0px;
+margin-top: 0px;
+width: 331px;
+}
+.tileblock .col-xs-12 img{
+width:301px;
+margin:0 auto;
+height: 203px;
+}
+.col-xs-12 .splinfo1, .col-xs-12 .splinfo2{
+left: 0px;
+width: 100%;
+}
+.col-xs-12 .splinfo1{
+background-color: rgba(255,255,255,0.8);
+color: black;
+top: 193px;
+font-size: 15px;
+}
+.col-xs-12 .splinfo2{
+font-size: 10px;
+top: 237px;
+}
+.newsletter{
+margin-top: 11px;
+}
+.footerdetails{
+border-top: 1px solid #e5e5e5;
+}
+.footerdetails .col-xs-6{
+padding: 0px 0px 0px 7px;
+}
+.footerdetails .col-xs-6 nav{
+padding: 0px 0px 0px 0px;
+width: 100%;
+}
+.footerdetails nav ul{
+margin-top: 26px;
+}
+.footerdetails .col-xs-6  .col-xs-12 ul li a{
+font-size: 8px;
+}
+.col-xs-12.copyright{
+font-size:9px;
+margin-left: 0px;
+padding: 0px;
+}
+}
+
+
+
