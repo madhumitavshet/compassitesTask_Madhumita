@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+font-family: 'Roboto', sans-serif;
+overflow-x: hidden;
+}
+.container-fluid{
+padding-left: 0px !important;
+padding-right: 0px !important;
+}
+.container-fluid .first-row{
+background-image: url(../images/top-banner.png) ;
+height:542px;
+width:100%;
+}
+.container-fluid .bootuplogo img{
+height:24px;
+width:166px;
+margin:67px 0px 0px 74px;
+}
+.growthofAI .growth-header h2{
+color:#ffcc00;
+font-size: 53px;
+font-weight: 700;
+line-height: 33px;
+letter-spacing: -1.06px;
+margin:9% 0% 0% 5%;
+}
+.growth-header-details .growth-lists li{
+font-size: 19px;
+font-weight: 300;
+line-height: 33px;
+color:#ffffff;
+letter-spacing: -0.38px;
+}
+.growth-header-details{
+margin:1% 0% 0% 4%;
+}
+.second-row{
+height:395px;
+}
+.key-retail-header h2{
+font-size: 42px;
+color: #333333;
+font-weight: 700;
+letter-spacing: -0.9px;
+margin-top: 83px;
+margin-left: 13%;
+width:100%;
+ }
+.key-retail-areas-whole-block .key-retail-areas img{
+height:148px;
+ }
+.key-retail-areas{
+margin-right: 35px;
+padding: 0px;
+}
+.key-retail-areas-whole-block{
+ margin-left: 8%;
+}
+.key-retail-namings{
+margin:14px 0px 0px 31px;
+font-size: 17px;
+width: 100%;
+color:#333333;
+}
+.BootUP-help h2{
+font-size: 45px;
+font-weight: 700;
+padding-left: 31%;
+ }
+.retail-applications h3{
+font-size: 23px;
+font-weight: 300;
+line-height: 33px;
+padding-left: 27%;
+margin-bottom: 0px;
+}
+.detail h4{
+font-size:17px;
+font-weight: 300;
+line-height: 33px;
+color:#22282c;
+padding-left: 13%;
+margin-top: 0px;
+ }
+ .boot-up-infographics img{
+ height:370px;
+ width:35%;
+ margin-left:28%;
+ }
+ .third-row{
+ height:619px;
+ background-color: #f2f2f2;
+ }
+ .benefits-of-AI h2{
+ font-size: 45px;
+ font-weight: 700;
+ padding-left: 19%;
+ margin:45px 0px 0px 0px;
+ }
+ .benefits-of-AI-detail h3 ,.automated-experience h3{
+ font-size: 17px;
+ font-weight: 300;
+ line-height: 33px;
+ color:#22282c;
+ letter-spacing: -0.34px;
+ padding-left: 43px;
+ margin-bottom: 0px;
+ }
+.automated-experience h3{
+padding-left: 36%;
+margin-top: 0px;
+ }
+.personalised-exp-header{
+background-color:#98c980;
+color:white;
+height:81px;
+}
+.create-header h2{
+width: 26%;
+font-size: 24px;
+font-weight: 700;
+margin: 0px 0px 0px 134px;
+}
+.Personalized-Experience h3{
+font-size: 24px;
+font-weight: 700;
+margin:8px 0px 0px 42px;
+}
+.personalised-exp-detail{
+background-color: #b0d79c;
+margin-top: 2px;
+}
+.personalised-exp-detail p{
+height:283px;
+padding: 33px;
+color:white;
+font-weight: 400;
+font-size: 16px;
+line-height: 31px;
+letter-spacing: -0.32px;
+}
+.product-recommend-exp-header{
+background-color:#ffbb99;
+color:white;
+height:81px;
+}
+.product-rec h2{
+width: 83%;
+font-size: 24px;
+font-weight: 700;
+margin: 0px 0px 0px 51px;
+}
+.to-boost-sales h3{
+font-size: 24px;
+font-weight: 700;
+margin-left: 26%;
+margin-top: 8px;
+}
+.product-recommend-detail{
+background-color: #ffbb99;
+margin-top: 2px;
+}
+.product-recommend-detail p{
+height:283px;
+padding: 33px;
+color:white;
+font-weight: 400;
+font-size: 16px;
+line-height: 31px;
+letter-spacing: -0.32px;
+}
+.monitor-exp-header{
+background-color:#82beff;
+color:white;
+height:81px;
+}
+.monitor-header h2{
+width: 60%;
+font-size: 24px;
+font-weight: 700;
+margin: 0px 0px 0px 70px;
+padding-top: 27px;
+}
+.monitor-exp-detail{
+background-color: #99dbff;
+margin-top: 2px;
+}
+.monitor-exp-detail p{
+height:283px;
+padding: 33px;
+color:white;
+font-weight: 400;
+font-size: 16px;
+line-height: 31px;
+letter-spacing: -0.32px;
+}
+.services-packages-header h2{
+font-size: 34px;
+color: #81aaff;
+padding-left: 28%;
+font-weight: 700;
+letter-spacing: -0.68px;
+}
+.power-of-AI h2, .power-of-AI-contd h2{
+font-size: 17px;
+font-weight: 100;
+color: #22282c;
+}
+.power-of-AI h2{
+padding-left: 62px;
+}
+.power-of-AI-contd h2{
+padding-left: 15%;
+margin-top: 0px;
+}
+.bootup-services{
+margin-top: 36px;
+}
+.fourth-row{
+height:590px;
+}
+.fifth-row{
+height:485px;
+background-color: #f2f2f2;
+}
+.phase{
+margin:15px !important;
+}
+.phase h4{
+text-align: center;
+padding:40px 0px 20px 0px;
+color: #999999;
+font-size: 20px;
+}
+.build_phase_block{
+background: #8282ff;
+}
+.build_phase_block h5,.growth_phase_block h5{
+text-align: center;
+font-size: 17px;
+color: #ffffff;
+padding-top: 10px;
+}
+.growth_phase_block{
+background: #ff8b82;
+margin-left: 0px;
+}
+.space_block{
+margin-right: 10px;
+}
+.infrastructure_block{
+background: #9999ff;
+margin-top: 2px;
+padding: 20px 10px 0px 0px;
+height: 200px;
+color: #ffffff;
+}
+.networking_event_block{
+background: #ffa199;
+margin-top: 2px;
+padding: 20px 10px 0px 15px;
+height: 200px;
+color: #ffffff;
+}
+.list_block{
+list-style-type: none;
+}
+.talk_to_us_today_block{
+height: 427px;
+background: #0058c0;
+width: 82%;
+margin-left: 122px;
+}
+.global_investment{
+float: left;	
+width: 45%;	
+margin:50px 0px 0px 70px;
+}
+.global_investment>p{
+text-align: center;
+font-size: 25px;
+color: #ffcc00;
+font-weight: 300;
+}
+.global_investment>span{
+font-weight: 900;
+}
+.global_investment>.pulse{
+font-size: 26px;
+color:#ffcc00;
+font-weight: 700;
+}
+.global_investment>.opportunity{
+color: #ffffff;
+}
+.global_investment>.button_block{
+padding:15px 40px;
+font-size: 25px;
+color: #000000;
+background:#ffcc00;
+margin-left: 25%;
+font-weight: 700;
+margin-top: 20px;
+}
+.global_investment_image{
+float: right;
+margin:50px 35px 0px 0px;
+}
+.US-detail{
+color:white;
+}
+.vector-image img{
+height: 323px;
+}
+.vector-image-label{
+text-align: center;
+}
+.vector-desc p{
+font-size: 24px;
+font-weight: 300;
+color: #333333;
+letter-spacing: -0.48px;
+margin-top: 13%;
+width: 85%;
+padding-left: 8px;
+}
+.image-border{
+border: 1px solid #b3b1b1;
+width: 73%;
+padding: 28px;
+margin-left: 30%;
+}
+.vector-whole-block {
+margin-top: 3%;
+}
+.vector-image-label {
+padding: 6px 0px 0px 211px;
+}
+.images-tile{
+background-color: #eff1f4;
+}
+.images-tile-block{
+margin: 40px 0px 0px 0px;
+background-color: #eff1f4;
+padding: 0px 106px;
+height: 100px;
+}
+.images-tile-image{
+float: left;
+margin: 30px 0px;
+}
+.images-tile-image img{
+margin: 0px 30px 0px 0px;
+}
+.images-tile-image1 img{
+margin: 10px 30px 0px 0px;
+}
+.images-tile-image2 img{
+margin: 10px 30px 0px 0px;	
+}
+.eighth-row{
+height:423px;
+}
+.more_information_block>p{
+padding: 40px 0px 20px 0px;
+font-size: 28px;
+text-align: center;
+font-weight: 300;
+color: #c8c8c8;
+letter-spacing: -0.56px;
+}
+.get_in_touch{
+background: #333333;
+}
+.details_block{
+padding: 50px 100px;
+}
+.details{
+border-right: 1px solid #000000;
+color: #ffffff;
+text-align: center;
+}
+.details>h2,.contact_address>h2{
+font-size: 45px;
+padding-bottom: 20px;
+color: #ffffff;
+letter-spacing: 0.9px;
+}
+input{
+width: 55%;
+border: none;
+background: #333333;
+border-bottom: 1px solid #f90;
+padding: 20px 0px 0px 0px;
+} 
+input[type='text']{
+margin-bottom: 40px;
+color: #ff9900;
+}
+input[type="email"],input[type='text']::-webkit-input-placeholder{
+color:#ff9900;
+font-size: 16px;
+}
+input::placeholder{
+color: #ff9900;
+font-size: 16px;
+}
+
+.details>form>.button_block{
+padding: 10px 172px;
+background:#f90;
+border: none; 
+font-size: 25px;
+}
+.contact_us_block{
+margin: 170px 10px 0px 80px;
+}
+address{
+color: #ffffff;
+font-size: 22px;
+padding:20px 0px 0px 10px;
+}
