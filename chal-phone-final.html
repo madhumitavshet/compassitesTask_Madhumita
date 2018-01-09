@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script>
+	const tax_rate = 0.08;
+	const phone_price =200;
+	const accessory_price = 50;
+	const spending_threshold = 600;
+
+	var bank_bal = 800;
+	var amount = 0;
+
+	function cal_tax(amount){
+		return amount* tax_rate;
+	}
+	function format(amount){
+		return "$" + (amount.toFixed(2));
+	}
+	while(amount < bank_bal){
+		amount = amount +phone_price;
+		if(amount < spending_threshold){
+			amount = amount + accessory_price;
+		}
+		else if(amount > spending_threshold){
+			console.log("you cant afford the accessory while your amount is greater than threshold");
+		}
+	}
+	amount = amount +cal_tax(amount);
+	console.log("Your purchase: " + format( amount ));
+	if(amount  > bank_bal){
+		console.log("you cant afford the phone");
+	}
+
+
+	</script>
+</head>
+<body>
+<h1>javascript exercise</h1>
+</body>
+</html>
+
